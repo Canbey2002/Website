@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Security Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>IoT Security Dashboard</h1>
+    <div class="container">
+        <!-- Status Section -->
+        <div class="section" id="status">
+            <h2>Status</h2>
+            <p>System Armed: <span id="armed-status" class="status inactive">No</span></p>
+            <p>Intruder Detected: <span id="intruder-status" class="status inactive">No</span></p>
+        </div>
+
+        <!-- Sensor Readings Section -->
+        <div class="section" id="readings">
+            <h2>Sensor Readings</h2>
+            <p>Light Level: <span id="light-level">0</span> lux</p>
+            <p>Temperature: <span id="temperature">0</span> °C</p>
+            <p>Humidity: <span id="humidity-level">0</span>%</p>
+            <p>Ultrasonic Ranger: <span id="ultrasonic-distance">0</span> cm</p>
+        </div>
+
+        <!-- Actions Section -->
+        <div class="section" id="actions">
+            <h2>Actions</h2>
+            <button id="arm-disarm-button">Arm System</button>
+            <button id="reset-baseline-button">Reset Baseline</button>
+        </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

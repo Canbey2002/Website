@@ -1,0 +1,37 @@
+[
+    {
+        "timestamp": "2024-12-03T10:00:00Z",
+        "lightLevel": 200,
+        "temperature": 22.5,
+        "humidity": 50,
+        "ultrasonicDistance": 100
+    },
+    {
+        "timestamp": "2024-12-03T10:00:01Z",
+        "lightLevel": 250,
+        "temperature": 22.5,
+        "humidity": 50,
+        "ultrasonicDistance": 100
+    },
+    {
+        "timestamp": "2024-12-03T10:00:02Z",
+        "lightLevel": 250,
+        "temperature": 22.5,
+        "humidity": 50,
+        "ultrasonicDistance": 110
+    },
+    {
+        "timestamp": "2024-12-03T10:00:03Z",
+        "lightLevel": 250,
+        "temperature": 22.5,
+        "humidity": 50,
+        "ultrasonicDistance": 130
+    },
+    {
+        "timestamp": "2024-12-03T10:00:04Z",
+        "lightLevel": 300,
+        "temperature": 22.5,
+        "humidity": 50,
+        "ultrasonicDistance": 130
+    }
+]
